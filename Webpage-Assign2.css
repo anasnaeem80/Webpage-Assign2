@@ -1,0 +1,231 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('img2.png');
+    background-size:cover;
+
+
+}
+
+.container {}
+
+.header {
+
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.header-buttons {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.last-header-button {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 8px 35px;
+    margin-right: 80px;
+    cursor: pointer;
+
+}
+
+.header-buttons:active {
+    opacity: 0.6;
+}
+
+.last-header-button:active {
+    opacity: 0.6;
+
+}
+
+.logo {
+    width: 60px;
+    margin-left: 70px;
+    object-fit: cover;
+    object-position: center;
+    background: transparent;
+    cursor: pointer;
+}
+
+.remaining {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    margin-top: 90px;
+    justify-content: center;
+    border: 1px solid white;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+}
+
+.cross-div {
+    display: flex;
+    justify-content: end;
+
+    height: 20px;
+
+}
+
+.cross-button {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(39, 37, 104);
+    color: white;
+    cursor: pointer;
+}
+
+.cross-button:active {
+    opacity: 0.6;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.login-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.below-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.below-login {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.email {
+    width: 200px;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+
+
+}
+
+input[type="email"]::placeholder {
+    color: rgb(39, 37, 104);
+}
+
+input[type="password"]::placeholder {
+    color: rgb(39, 37, 104);
+}
+
+.password {
+    width: 200px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin-left: 0px;
+    border: none;
+    outline: none;
+}
+
+.Remember {
+    font-size: 11px;
+    color: rgb(39, 37, 104);
+}
+
+.forgot-password {
+    font-size: 11px;
+    background: transparent;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+    color: rgb(39, 37, 104);
+
+}
+
+.forgot-password:active {
+    opacity: 0.6;
+}
+
+.below-password {
+    display: flex;
+    align-items: center;
+
+}
+
+.login-button {
+    background-color: rgb(39, 37, 104);
+    width: 205px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.login-button:active {
+    opacity: 0.6;
+}
+
+.para {
+    font-size: 11px;
+    color: rgb(39, 37, 104);
+    margin-left: 20px;
+}
+
+.register {
+    background: transparent;
+    border: none;
+    color: rgb(31, 29, 80);
+    font-weight: bold;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.register:active {
+    opacity: 0.6;
+}
